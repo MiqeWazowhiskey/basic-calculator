@@ -1,12 +1,12 @@
 import './index.css';
 import Dashboard from './components/Dashboard';
-import Result from './components/Result';
+
 import Functions from './components/Functions';
 function App() {
  
   return (
     <div className="justify-start">
-        <div className='bg-black w-96 h-16 text-white'>  </div>
+        <div className='flex bg-black w-96 h-16 text-white justify-end pr-2 pt-5'> <p className='font-bold'>{'0'}</p>  </div>
         <div className='flex '>
          
             <div className='bg-orange-400 '>
