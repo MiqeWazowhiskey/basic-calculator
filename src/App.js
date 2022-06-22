@@ -10,11 +10,11 @@ function App() {
   }
   
   return (
-    <div className="flex flex-col items-center mt-32">
-        <div className='flex bg-black w-96 h-16 justify-end text-white pr-2 pt-5'>
+    <div className="flex flex-col items-center mt-32 ">
+        <div className='flex bg-black w-96 h-16 justify-end text-white pr-2 pt-5 mb-5 rounded-xl shadow-2xl shadow-gray-500'>
           {result ? '0' : calc}
           </div>
-        <div className='flex'>
+        <div className='flex shadow-2xl shadow-gray-500'>
          
             <div className='bg-orange-400 '>
             <Functions click={()=> updateCalc('+')} func={'+'} />
